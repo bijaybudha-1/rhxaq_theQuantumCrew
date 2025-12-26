@@ -1,7 +1,7 @@
 <?php
 include "db.php";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["POST"] == "POST") {
 
     $fullName = $_POST['fullName'];
     $email = $_POST['email'];
